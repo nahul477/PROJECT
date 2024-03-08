@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #Ffc0cb;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+   color: white;
+}
+
+nav ul li a,
+nav ul li.logout input[type="submit"] {
+    
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li.logout input[type="submit"]:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #Ffc0cb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+}
+
+body {
+    padding-bottom: 40px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative; /* Ensure the form is positioned relative */
+    z-index: 1; /* Set a higher z-index value */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="submit"],
+input[type="username"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    z-index: 2; /* Set a higher z-index value */
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px; /* Add some space between the radio buttons */
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#fileName {
+    margin-left: 10px;
+    color: #333;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="username"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: 1px solid #333; /* Add a border to indicate focus */
+}
+
+/* Additional CSS for file upload button */
+#photoUploadContainer {
+    display: flex;
+    align-items: center;
+}
+
+#photoUploadContainer label {
+    margin-right: 10px; /* Increase the margin for more space */
+    margin-left: 70px; /* Add margin to the left side */
+}
+
+/* Hide the default file input */
+.inputfile {
+    display: none;
+}
+
+/* Style the custom upload button */
+.uploadButton {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Change button style on hover */
+.uploadButton:hover {
+    background-color: #555;
+}
+
+/* Style for logout button */
+nav ul li.logout {
+    
+    margin-right: 20px;
+}
+
+nav ul li.logout a {
+
+    text-decoration: none;
+}
+
+nav ul li.logout a:hover {
+    text-decoration: none;
+}
+
+nav ul li.logout form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li.logout input[type="submit"] {
+    background-color: #FFC0CB;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav ul li.logout input[type="submit"]:hover {
+    text-decoration: none;
+}
+
+/* Add this CSS code for styling images in index.php */
+section img {
+    max-width: 30%;
+    height: auto;
+    margin: 20px 10px; /* Adjust margin as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a container to hold the images and apply flexbox */
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+

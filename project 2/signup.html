@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BabyCare System - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to BabyCare System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="diseases.html">DISEASES</a></li>
+                <li><a href="food-nutrition.html">FOOD & NUTRITION</a></li>
+                <li><a href="vaccination.html">VACCINATION</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Sign Up</h2>
+        <form action="signup.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="babyName">Baby Name:</label>
+            <input type="text" id="babyname" name="babyname" required><br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="login.php">Back to Login</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 BabyCare System. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
